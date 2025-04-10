@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #cdf4ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #2e6d89;
     margin: 0;
   }
   
@@ -22,5 +22,12 @@ body {
   .perfil {
     padding: 20px;
   }
-
+  
+  .nombre-logo{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
   
