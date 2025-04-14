@@ -9,7 +9,7 @@
         
     </head>
     
-    <body id="top">
+    <body>
         <header>
             <div class="perfil">             
                 <img src="imgs/fotopersonal.jpg" 
@@ -29,11 +29,17 @@
                 <a href="#Sobremi">Sobre mí</a>
                 <a href="#Experiencia">Experiencia</a>
                 <a href="#Tecnologias">Tecnologías</a>
-                <a href="#Proyectos">Proyectos</a>           
+                <a href="#Proyectos">Proyectos</a>
+                <a href="#Contacto">Contacto</a>           
             </nav>
         </header>
         
         <main>
+            <section id="#Sobremi">
+                <h2>Sobre mí</h2>
+                <p>En construcción...</p>
+            </section>
+            
             <section id="Experiencia">
                 <h2>Experiencia</h2>
                 <p>En busca de mi primer trabajo.</p>
@@ -51,6 +57,32 @@
             <section id="Proyectos">
                 <h2>Proyectos</h2>
                 <p>En construcción...</p>
+            </section>
+        
+            <section id="Contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <div id="form_part_1">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    
+                    <div id="form_part_2">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required><br>
+            
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                    </div>
+        
+                    <div id="form_part_3">
+                        <input type="submit">
+                        <input type="reset">                        
+                    </div>
+                </form>
             </section>
         </main>
 
