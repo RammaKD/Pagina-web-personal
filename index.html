@@ -11,47 +11,65 @@
     
     <body>
         <header>
+            <div class="franja-superior">
+                <nav class="navegacion">
+                    <a href="#top">Home</a>
+                    <a href="#Sobremi">Sobre mí</a>
+                    <a href="#Formacion">Formación</a>
+                    <a href="#Tecnologias">Tecnologías</a>
+                    <a href="#Proyectos">Proyectos</a>
+                    <a href="#Contacto">Contacto</a>           
+                </nav>
+            </div>
+            
             <div class="perfil">             
-                <img src="imgs/fotopersonal.jpg" 
-                alt="Foto personal"
-                class="fotopersonal"
-                height="200"
-                width="200" 
-                title="Foto personal">
+                <img class="fotopersonal" src="imgs/fotopersonal.jpg" alt="Foto personal" title="Foto personal">
                 
                 <h1>Hola, mi nombre es Ramiro</h1>               
                 
                 <p>Soy desarrollador de software. Estudiante de la carrera TUP en la UTN, próximo a recibirse.</p>
-            </div>                       
+            </div>
+            
         
-            <nav class="navegacion">
-                <a href="#top" class="nombre-logo">Ramiro Alfonzo</a>
-                <a href="#Sobremi">Sobre mí</a>
-                <a href="#Experiencia">Experiencia</a>
-                <a href="#Tecnologias">Tecnologías</a>
-                <a href="#Proyectos">Proyectos</a>
-                <a href="#Contacto">Contacto</a>           
-            </nav>
         </header>
         
         <main>
             <section id="#Sobremi">
                 <h2>Sobre mí</h2>
-                <p>En construcción...</p>
-            </section>
+                
+                <p>Hola, soy Ramiro Alfonzo, estudiante de la Tecnicatura Universitaria en Programación en la UTN.</p>
+                <p>Desde que desarrollé mi primer videojuego en Scratch a los 12 años para un proyecto escolar, supe que la programación era algo que quería seguir explorando. Con el tiempo, ese interés inicial se transformó en una verdadera pasión, que se potenció aún más desde que comencé la Tecnicatura.</p>
+                <p>Me gusta aprender con profundidad. No me conformo con que algo "funcione", sino que busco comprender cómo y por qué lo hace, con el objetivo de ser cada vez más competente y sólido en lo que hago. A medida que avanzo en mi formación, mi entusiasmo por el mundo del desarrollo sigue creciendo, impulsándome a mejorar constantemente.</p>
+                <p>Actualmente estoy enfocado en consolidar mis conocimientos y sumar experiencia a través de proyectos prácticos que me permitan seguir desarrollándome como programador.</p>
             
-            <section id="Experiencia">
-                <h2>Experiencia</h2>
-                <p>En busca de mi primer trabajo.</p>
+            </section>
+                                          
+            <section id="Formacion">
+                <h2>Formación</h2>
+                <p>Actualmente curso la Tecnicatura Universitaria en Programación en la UTN, Facultad Regional Avellaneda.</p>
+
+                <ul>
+                  <li>Duración total: 2 años (4 cuatrimestres)</li>
+                  <li>Estado actual: 3er cuatrimestre (2do año)</li>
+                  <li>Lenguajes vistos: Python, Java</li>
+                  <li>Bases de datos: MySQL, MongoDB</li>
+                  <li>Desarrollo web (actual cuatrimestre): HTML, CSS, JavaScript</li>                  
+                </ul>
+              
+                <p>Durante la carrera desarrollé varios proyectos académicos, tanto individuales como en grupo, que abarcan lógica de programación y desarrollo web básico. Los más relevantes se encuentran detallados en la sección <a href="#Proyectos">Proyectos</a>.</p>
             </section>
         
             <section id="Tecnologias">
                 <h2>Tecnologías</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
+                <div class="iconos-tecnologias">
+                    <img class="python-logo" src="imgs\pythonlogo.png" alt="python-logo" title="Python">
+                    <img class="java-logo" src="imgs\javalogo.png" alt="java-logo" title="Java">
+                    <img class="html-logo" src="imgs\htmllogo.png" alt="html-logo" title="HTML">
+                    <img class="css-logo" src="imgs\csslogo.png" alt="css-logo" title="CSS">
+                    <img class="js-logo" src="imgs\javascriptlogo.png" alt="js-logo" title="JavaScript">
+                    <img class="mysql-logo" src="imgs\mysqllogo.png" alt="mysql-logo" title="MySQL">
+                    <img class="mongodb-logo" src="imgs\mongodb.png" alt="mongodb-logo" title="MongoDB">
+                </div>
             </section>
         
             <section id="Proyectos">
@@ -86,9 +104,12 @@
             </section>
         </main>
 
-        <footer>
-            <p>© 2025 Ramiro Alfonzo. Todos los derechos reservados.</p>
-        </footer>   
+        <div class="franja-inferior">
+            <footer>
+                <p>© 2025 Ramiro Alfonzo. Todos los derechos reservados.</p>
+            </footer>   
+        </div>
+
 
 
     </body>
