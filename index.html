@@ -10,105 +10,92 @@
     </head>
     
     <body>
-        <header>
-            <div class="franja-superior">
-                <nav class="navegacion">
-                    <a href="#top">Home</a>
-                    <a href="#Sobremi">Sobre mí</a>
-                    <a href="#Formacion">Formación</a>
-                    <a href="#Tecnologias">Tecnologías</a>
-                    <a href="#Proyectos">Proyectos</a>
-                    <a href="#Contacto">Contacto</a>           
-                </nav>
-            </div>
-            
-            <div class="perfil">             
-                <img class="fotopersonal" src="imgs/fotopersonal.jpg" alt="Foto personal" title="Foto personal">
-                
-                <h1>Hola, mi nombre es Ramiro</h1>               
-                
-                <p>Soy desarrollador de software. Estudiante de la carrera TUP en la UTN, próximo a recibirse.</p>
-            </div>
-            
-        
+        <header id="main-header">            
+            <nav class="nav-bar">
+                <a href="#top">Home</a>
+                <a href="#sobremi">Sobre mí</a>                    
+                <a href="#proyectos">Proyectos</a>
+                <a href="#tecnologias">Tecnologías</a>
+                <a href="#contacto">Contacto</a>           
+            </nav>          
         </header>
         
         <main>
-            <section id="#Sobremi">
-                <h2>Sobre mí</h2>
-                
-                <p>Hola, soy Ramiro Alfonzo, estudiante de la Tecnicatura Universitaria en Programación en la UTN.</p>
-                <p>Desde que desarrollé mi primer videojuego en Scratch a los 12 años para un proyecto escolar, supe que la programación era algo que quería seguir explorando. Con el tiempo, ese interés inicial se transformó en una verdadera pasión, que se potenció aún más desde que comencé la Tecnicatura.</p>
-                <p>Me gusta aprender con profundidad. No me conformo con que algo "funcione", sino que busco comprender cómo y por qué lo hace, con el objetivo de ser cada vez más competente y sólido en lo que hago. A medida que avanzo en mi formación, mi entusiasmo por el mundo del desarrollo sigue creciendo, impulsándome a mejorar constantemente.</p>
-                <p>Actualmente estoy enfocado en consolidar mis conocimientos y sumar experiencia a través de proyectos prácticos que me permitan seguir desarrollándome como programador.</p>
-            
-            </section>
-                                          
-            <section id="Formacion">
-                <h2>Formación</h2>
-                <p>Actualmente curso la Tecnicatura Universitaria en Programación en la UTN, Facultad Regional Avellaneda.</p>
-
-                <ul>
-                  <li>Duración total: 2 años (4 cuatrimestres)</li>
-                  <li>Estado actual: 3er cuatrimestre (2do año)</li>
-                  <li>Lenguajes vistos: Python, Java</li>
-                  <li>Bases de datos: MySQL, MongoDB</li>
-                  <li>Desarrollo web (actual cuatrimestre): HTML, CSS, JavaScript</li>                  
-                </ul>
+            <section id="presentacion">
+                <div class="contenedor-presentacion">
+                  <img class="presentacion-img" src="imgs/fotopersonal.jpg" alt="Foto personal">
+                  <div class="presentacion-text">
+                    <h1>Hola, soy Ramiro Alfonzo</h1>
+                    <p>Soy desarrollador de software. Estudiante de la carrera TUP en la UTN, próximo a recibirse.</p>
+                  </div>
+                </div>
+              </section>
               
-                <p>Durante la carrera desarrollé varios proyectos académicos, tanto individuales como en grupo, que abarcan lógica de programación y desarrollo web básico. Los más relevantes se encuentran detallados en la sección <a href="#Proyectos">Proyectos</a>.</p>
+            <section id="sobremi">
+                <div class="contenedor-sobremi">
+                    <div class="sobremi-text">
+                        <h2>Sobre mí</h2>                                  
+                        <p>Desde que desarrollé mi primer videojuego en Scratch a los 12 años para un proyecto escolar, supe que la programación era algo que quería seguir explorando. Con el tiempo, ese interés inicial se transformó en una verdadera pasión, que se potenció aún más desde que comencé la Tecnicatura.</p>
+                        <p>Me gusta aprender con profundidad. No me conformo con que algo "funcione", sino que busco comprender cómo y por qué lo hace, con el objetivo de ser cada vez más competente y sólido en lo que hago. A medida que avanzo en mi formación, mi entusiasmo por el mundo del desarrollo sigue creciendo, impulsándome a mejorar constantemente.</p>
+                        <p>Actualmente estoy enfocado en consolidar mis conocimientos y sumar experiencia a través de proyectos prácticos y profesionales que me permitan seguir desarrollándome como programador.</p>
+                    </div>
+                </div>
             </section>
-        
-            <section id="Tecnologias">
-                <h2>Tecnologías</h2>
-                <div class="iconos-tecnologias">
-                    <img class="python-logo" src="imgs\pythonlogo.png" alt="python-logo" title="Python">
-                    <img class="java-logo" src="imgs\javalogo.png" alt="java-logo" title="Java">
-                    <img class="html-logo" src="imgs\htmllogo.png" alt="html-logo" title="HTML">
-                    <img class="css-logo" src="imgs\csslogo.png" alt="css-logo" title="CSS">
-                    <img class="js-logo" src="imgs\javascriptlogo.png" alt="js-logo" title="JavaScript">
-                    <img class="mysql-logo" src="imgs\mysqllogo.png" alt="mysql-logo" title="MySQL">
-                    <img class="mongodb-logo" src="imgs\mongodb.png" alt="mongodb-logo" title="MongoDB">
+            
+            <section id="proyectos">
+                <div class="contenedor proyectos">
+                    <h2>Proyectos</h2>
+                    <p>En construcción...</p>
+                </div>
+            </section>
+            
+            <section id="tecnologias">
+                <div class="contenedor tecnologias">
+                    <h2>Tecnologías</h2>                
+                    
+                    <div class="iconos-tecnologias">
+                        <img class="python-logo logo-tecno" src="imgs\pythonlogo.png" alt="python-logo" title="Python">
+                        <img class="java-logo logo-tecno" src="imgs\javalogo.png" alt="java-logo" title="Java">
+                        <img class="html-logo logo-tecno" src="imgs\htmllogo.png" alt="html-logo" title="HTML">
+                        <img class="css-logo logo-tecno" src="imgs\csslogo.png" alt="css-logo" title="CSS">
+                        <img class="js-logo logo-tecno" src="imgs\javascriptlogo.png" alt="js-logo" title="JavaScript">
+                        <img class="mysql-logo logo-tecno" src="imgs\mysqllogo.png" alt="mysql-logo" title="MySQL">
+                        <img class="mongodb-logo logo-tecno" src="imgs\mongodb.png" alt="mongodb-logo" title="MongoDB">
+                    </div>
                 </div>
             </section>
         
-            <section id="Proyectos">
-                <h2>Proyectos</h2>
-                <p>En construcción...</p>
-            </section>
-        
-            <section id="Contacto">
-                <h2>Contacto</h2>
-                <form>
-                    <div id="form_part_1">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required><br>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br>
+            <section id="contacto">
+                <div class="contenedor contacto">
+                    <div class="titulo-contacto">
+                        <h2>CONTACTO</h2>
+                        <h3>Dejame tu mensaje mediante este formulario 📩</h3>
                     </div>
                     
-                    <div id="form_part_2">
-                        <label for="asunto">Asunto:</label>
-                        <input type="text" id="asunto" name="asunto" required><br>
-            
-                        <label for="mensaje">Mensaje:</label><br>
-                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-                    </div>
-        
-                    <div id="form_part_3">
-                        <input type="submit">
-                        <input type="reset">                        
-                    </div>
-                </form>
+                    <form class="formulario">
+                        <div class="form-group-1">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            <input type="email" id="email" name="email" placeholder="Tu mail" required>
+                        </div>
+                
+                        <div class="form-group-2">
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                            <textarea id="mensaje" name="mensaje" rows="6" placeholder="Mensaje" required></textarea>
+                        </div>
+                
+                        <div class="form-group-3">
+                            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>    
             </section>
         </main>
 
-        <div class="franja-inferior">
-            <footer>
+        <footer id="main-footer">
+            <div class="footer-text">
                 <p>© 2025 Ramiro Alfonzo. Todos los derechos reservados.</p>
-            </footer>   
-        </div>
+            </div>
+        </footer>
 
 
 
