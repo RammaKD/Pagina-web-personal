@@ -10,29 +10,33 @@
     </head>
     
     <body>
-        <header id="main-header">            
-            <nav class="nav-bar">
-                <a href="#top">Home</a>
-                <a href="#sobremi">Sobre mí</a>                    
-                <a href="#proyectos">Proyectos</a>
-                <a href="#tecnologias">Tecnologías</a>
-                <a href="#contacto">Contacto</a>           
-            </nav>          
+        <header id="header">            
+            <div class="header-container">
+                <nav class="nav-bar">
+                    <a href="#top">Home</a>
+                    <a href="#sobremi">Sobre mí</a>                    
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#tecnologias">Tecnologías</a>
+                    <a href="#contacto">Contacto</a>           
+                </nav>     
+            </div>         
         </header>
         
         <main>
             <section id="presentacion">
-                <div class="contenedor-presentacion">
-                  <img class="presentacion-img" src="imgs/fotopersonal.jpg" alt="Foto personal">
-                  <div class="presentacion-text">
-                    <h1>Hola, soy Ramiro Alfonzo</h1>
-                    <p>Soy desarrollador de software. Estudiante de la carrera TUP en la UTN, próximo a recibirse.</p>
-                  </div>
+                <div class="presentacion-container">
+                    <div class="presentacion-imgs">
+                        <img class="personal-img" src="imgs/fotopersonal.jpg" alt="Foto personal">
+                    </div>
+                    <div class="presentacion-text">
+                        <h1>Hola, soy Ramiro Alfonzo</h1>
+                        <p>Soy desarrollador de software. Estudiante de la carrera TUP en la UTN, próximo a recibirse.</p>
+                    </div>
                 </div>
               </section>
               
             <section id="sobremi">
-                <div class="contenedor-sobremi">
+                <div class="sobremi-container">
                     <div class="sobremi-text">
                         <h2>Sobre mí</h2>                                  
                         <p>Desde que desarrollé mi primer videojuego en Scratch a los 12 años para un proyecto escolar, supe que la programación era algo que quería seguir explorando. Con el tiempo, ese interés inicial se transformó en una verdadera pasión, que se potenció aún más desde que comencé la Tecnicatura.</p>
@@ -43,17 +47,21 @@
             </section>
             
             <section id="proyectos">
-                <div class="contenedor proyectos">
-                    <h2>Proyectos</h2>
-                    <p>En construcción...</p>
+                <div class="proyectos-container">
+                    <div class="proyectos-text">
+                        <h2>Proyectos</h2>  
+                        <p>En construcción...</p>
+                    </div>
                 </div>
             </section>
             
             <section id="tecnologias">
-                <div class="contenedor tecnologias">
-                    <h2>Tecnologías</h2>                
+                <div class="tecnologias-container">
+                    <div class="tecnologias-text">
+                        <h2>Tecnologías</h2>                
+                    </div>
                     
-                    <div class="iconos-tecnologias">
+                    <div class="tecnologias-imgs">
                         <img class="python-logo logo-tecno" src="imgs\pythonlogo.png" alt="python-logo" title="Python">
                         <img class="java-logo logo-tecno" src="imgs\javalogo.png" alt="java-logo" title="Java">
                         <img class="html-logo logo-tecno" src="imgs\htmllogo.png" alt="html-logo" title="HTML">
@@ -66,24 +74,24 @@
             </section>
         
             <section id="contacto">
-                <div class="contenedor contacto">
-                    <div class="titulo-contacto">
+                <div class="contacto-container">
+                    <div class="contacto-text">
                         <h2>CONTACTO</h2>
-                        <h3>Dejame tu mensaje mediante este formulario 📩</h3>
+                        <h3>Dejame tu consulta mediante este formulario 📩</h3>
                     </div>
                     
-                    <form class="formulario">
-                        <div class="form-group-1">
+                    <form class="contacto-form">
+                        <div class="form-row-1">
                             <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
                             <input type="email" id="email" name="email" placeholder="Tu mail" required>
                         </div>
                 
-                        <div class="form-group-2">
+                        <div class="form-row-2">
                             <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
-                            <textarea id="mensaje" name="mensaje" rows="6" placeholder="Mensaje" required></textarea>
+                            <textarea id="mensaje" name="mensaje" rows="8" cols="120" placeholder="Mensaje" required></textarea>
                         </div>
                 
-                        <div class="form-group-3">
+                        <div class="form-row-3">
                             <button type="submit" class="boton-enviar">Enviar mensaje</button>
                         </div>
                     </form>
@@ -91,9 +99,11 @@
             </section>
         </main>
 
-        <footer id="main-footer">
-            <div class="footer-text">
-                <p>© 2025 Ramiro Alfonzo. Todos los derechos reservados.</p>
+        <footer id="footer">
+            <div class="footer-container">
+                <div class="footer-text">
+                    <p>© 2025 Ramiro Alfonzo. Todos los derechos reservados.</p>
+                </div>
             </div>
         </footer>
 
