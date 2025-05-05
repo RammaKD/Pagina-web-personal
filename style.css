@@ -1,6 +1,6 @@
 /*---GENERALES---*/
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
     margin: 0 auto;
 }
@@ -12,12 +12,24 @@ html {
 
 /*---HEADER---*/
 #header {
-  background-color: rgba(46, 109, 137, 1);
+  background-color: #2C5777;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
 }
+
+/* Oculto hacia arriba */
+.header-hidden {
+  transform: translateY(-100%);
+}
+
 .nav-bar {
   display: flex;
   gap: 30px;  
@@ -33,7 +45,7 @@ html {
 
 /*---FOOTER---*/
 #footer{
-  background-color: rgba(46, 109, 137, 1);
+  background-color: #2C5777;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,20 +88,21 @@ html {
 }
 
 .presentacion-text h1{
-  color: rgba(46, 109, 137, 1);;
+  color: #2C5777;
 }
 /*--END PRESENTACIÓN--*/
 
 /*--SECCIÓN SOBRE MI--*/
 #sobremi {
-  background-image: url("imgs/fondo_seccion_sobremi.png");
+  /* background-image: url("imgs/fondo_seccion_sobremi.png");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   height: 500px;
+  background-color: #2C5777;
 }
 
 .sobremi-container {
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   width: 100%;
   height: 100%;
   display: flex;
@@ -102,9 +115,7 @@ html {
   color: white;
   max-width: 800px;
 }
-.sobremi-text h2{
-  color: rgba(46, 109, 137, 1);
-}
+
 /*--END SOBRE MI--*/
 
 /*--SECCIÓN PROYECTOS--*/
@@ -113,6 +124,10 @@ html {
   justify-content: center;
   align-items: center;
   height: 300px;
+}
+
+.proyectos-text h2 {
+  color: #2C5777;
 }
 /*--END PROYECTOS--*/
 
@@ -123,6 +138,12 @@ html {
   text-align: center;
   align-items: center;
   height: 300px;
+  background-color: #2C5777;
+  flex-wrap: wrap;
+}
+
+.tecnologias-text h2 {
+  color: white;
 }
 
 .logo-tecno{
